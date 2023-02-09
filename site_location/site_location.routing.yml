@@ -1,0 +1,7 @@
+site_location.settings:
+  path: '/admin/site-location'
+  defaults:
+    _form: '\Drupal\site_location\Form\SiteLocationSettingsForm'
+    _title: 'Site location settings'
+  requirements:
+    _permission: 'administer site configuration'

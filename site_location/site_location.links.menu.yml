@@ -1,0 +1,5 @@
+site_location.settings:
+  title: 'Site Location Settings'
+  route_name: site_location.settings
+  description: 'Site location settings'
+  parent: system.admin_config
