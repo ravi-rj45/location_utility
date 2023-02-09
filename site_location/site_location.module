@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Module file for site location module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function site_location_theme() {
+  return [
+    'site_location' => [
+      'variables' => [
+        'time' => NULL,
+        'date' => NULL,
+        'location' => NULL,
+      ],
+    ],
+  ];
+}
