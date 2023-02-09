@@ -1,0 +1,5 @@
+name: Site Location
+description: 'Provides functionality for products.'
+type: module
+core_version_requirement: ^8 || ^9
+configure: site_location.admin_settings
